@@ -1,0 +1,110 @@
+body {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Garamond, Helvetica, sans-serif;
+    color: #dedede;
+    background-color: #121212;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* body.alchemy {
+    background-image: url("../images/alchemy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+/* .MouseTrail {
+    position: absolute;
+    height: 7px;
+    width: 7px;
+    border-radius: 4px;
+    background: #69F0AE;
+} */
+
+.footer {
+    text-align: center;
+}
+
+#main-content {
+    padding: 3rem 3rem 1.5rem 3rem;
+    text-align: center;
+    background-color: #181818;
+    box-shadow: 0px 0px 10px 0px #000000;
+    min-height: 850px;
+}
+
+.navbar-brand {
+    font-variant: small-caps;
+}
+
+span {
+    vertical-align: middle;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    line-height: 1.5;
+    font-weight: 500;
+    color: #ffffff;
+    font-variant: small-caps;
+}
+
+hr {
+    border-top: solid #69F0AE;
+    border-bottom: solid #69F0AE;
+    border-width: 1px 0;
+}
+
+.list-group {
+    max-width: 300px;
+}
+
+.list-group-item {
+    border: 1px solid #9E9E9E;
+    text-align: left;
+    height: 55px;
+}
+
+strong {
+    color: #ffffff;
+}
+
+.bg-darker {
+    background-color: #242424;
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+
+a:hover {
+    color: #FF5252 !important;
+}
+
+.locked {
+    color: #FF5252;
+    font-weight: bold;
+}
+
+.unlocked::after {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-unlock-fill' fill='%2369F0AE' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z'/%3E%3Cpath fill-rule='evenodd' d='M8.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    right: 40px;
+    top: 17.5px;
+    position: absolute;
+}
+
+.locked::after {
+    display: inline-block;
+    content: "";
+    background-image: url("data:image/svg+xml,%3Csvg width='1em' height='1em' viewBox='0 0 16 16' class='bi bi-lock-fill' fill='%23FF5252' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2.5 9a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-7a2 2 0 0 1-2-2V9z'/%3E%3Cpath fill-rule='evenodd' d='M4.5 4a3.5 3.5 0 1 1 7 0v3h-1V4a2.5 2.5 0 0 0-5 0v3h-1V4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
